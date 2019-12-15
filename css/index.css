@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #540BC8;
+}
+
+#navBar{
+    height: 200px;
+    width: 100%;
+}
+
+#icon{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+#icon h1{
+    padding-top: 75px;
+    padding-left: 75px;
+}
+#links{
+    height: 100%;
+    width: 50%;
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+ol {
+    font-size: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 75px;
+    padding-right: 75px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    padding-left: 25px;
+    font-family: serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}
+#title{
+    height: 800px;
+    width: 100%;
+    padding-top: 100px;
+    font-size: 70px;
+    color: white;
+}
+
+#title h1{
+    padding-left: 75px;
+    letter-spacing: 30px;
+    text-decoration: line-through #FF8B8B;
+}
+#title h3{
+    padding-left: 75px;
+    font-size: 70px;
+    font-weight: 1;
+}
+#tools h1{
+    font-size: 70px;
+    color: #540BC8;
+}
+#tools{
+    background-color: #FF8B8B;
+    height: 1000px;
+    width: 100%;
+    padding-top: 100px;
+    font-size: 20px;
+    color: white;
+}
+#tools h3{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: serif;
+}
+#cal{    
+    text-align: center;
+    letter-spacing: 20px;
+    text-decoration: line-through #540BC8;
+    color: white;
+}
+
+
